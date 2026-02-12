@@ -1,0 +1,20 @@
+Title: Cross site Scripting 
+Domain: Vulnweb.com
+Subdomain: testasp.vulweb.com
+steps to reproduce:
+step 1:visit htt://testasp.vulweb.com/
+step 2:On the top menu you will find a search option.
+step 3:Click on it and you will be prompted with the Search box.
+step 4:You can intercept the request in Burp Suite.
+step 5:Now you can find different payloads for XSS.
+step 6:Send the request to intruder and paste all the payloads.
+step 7:Try to find a successful payload for xss.
+
+impact: cross site scripting can lead to stealing of your user data
+and it can be harmful for your website/company.
+
+mitigation: if you want to prevent your website to be vulnerable of
+cross site scripting then you can just enable noscript on browser.
+
+poc including screenshot/screen recording is included in the report 
+which is attached below
